@@ -1,0 +1,43 @@
+host name (computer name )..> fully qualified domain name
+ex:www.example.com (name server + domain names )=fqdn 
+
+>nmcli..>config hostname 
+reboot .......>accept the changes fr system 
+
+>nmcli=n/w manager cmd line interface= (set ip address for the system )
+>root user #nmcli d
+(show all the possible connections availble /can be used  /alrdy in use )
+
+>ip a(show the ip address of system (virbr0=chanels )
+
+>lan (eth0=ethernt channl)
+
+>>>to assign ip address ..> 2 ways ...> dynamic method(DHCP SERVER ) >static method(,man
+ual method ...>
+>>>>s/m admin job role (assign ip adress )..>
+
+>>>dhcp=off , APIPA range (automatic private ip addresss)...>169.254.0.0-169.254.254.255
+
+>configure ip address cli mode ...>nmcli 
+
+>text editors (nano ,vim ,gedit)
+
+>vim=visual interface manager (edit the content present inside file)
+>vim /etc/sysconfig/network-scripts/ifcfg-eth0
+> escpe key , shift key+: , wq!...> to come out of shell 
+
+
+>>>>>>password breaking of root account >>>>>>>>>>>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
